@@ -1,4 +1,8 @@
 # EYE
+## Demo
+![demo](doc/demo.gif)
+
+
 ## Install
 Сlone the repository and go to its directory
 ```bash
