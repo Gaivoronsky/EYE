@@ -1,6 +1,6 @@
-from lib.device import Camera
-from lib.processors_noopenmdao import findFaceGetPulse
-from lib.interface import plotXY, imshow, waitKey, destroyWindow
+from src.lib.device import Camera
+from src.lib.processors_noopenmdao import findFaceGetPulse
+from src.lib.interface import plotXY, imshow, waitKey, destroyWindow
 from cv2 import moveWindow
 import argparse
 import numpy as np

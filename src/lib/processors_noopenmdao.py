@@ -4,13 +4,12 @@ import cv2
 import pylab
 import os
 import sys
-from model_lib.model import model_face
-from gaze_tracking import GazeTracking
+from src.model_lib.model import model_face
+from src.gaze_tracking import GazeTracking
 import wave
 import pyaudio
 import matplotlib.pyplot as plt
 
-# from .emotions_gaze import stream_video
 
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
